@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  padding-bottom: 80px
 }
 
 header {
@@ -293,3 +294,20 @@ i[class*='van-type-'] {
     text-decoration: underline;
     font-weight: 600;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #252525;
+    color: #fff;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+   
+}
+
