@@ -311,3 +311,37 @@ footer{
    
 }
 
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+.host-van-wrapper{
+    padding: 25px;
+  
+}
+.host-van-img{
+    width: 100px;
+}
+.host-van-container{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    /* border:1px solid black; */
+    background-color: #fff;
+    padding: 15px;
+
+}
+.host-van-details{
+    margin-left: 15px;
+}
+
+.host-van-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-block: 10px;
+    color: black;
+}
+.link{
+    text-decoration: none;  
+}
