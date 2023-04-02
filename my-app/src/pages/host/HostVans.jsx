@@ -27,7 +27,9 @@ function HostVans(){
             
             <div className="host-van-wrapper">
             <h2>Your Listed Vans</h2>
-                 {hostVansArr}
+            
+                {hostVansArr}
+            
             </div>
     
         </div>

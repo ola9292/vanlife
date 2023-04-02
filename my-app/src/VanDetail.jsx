@@ -20,7 +20,7 @@ function VanDetail(){
     useEffect(()=>{
         getSingleVan()
     },[])
-
+    console.log(van)
     return(
         <div className="van-detail-container">
         {van ? (
